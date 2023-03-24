@@ -1,0 +1,33 @@
+.post_card{	
+background: #e8e8e8;
+box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 80%), 0px 1px 1px 0px rgb(0 0 0 / 44%), 0px 1px 3px 0px rgb(0 0 0 / 32%)!important;
+}
+.edit_container{
+	height: 100%;
+	width: 100%;
+	form{
+		height: 100%;
+		width: 100%;
+	}
+}
+.card_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    width: 320px;
+	height: 100%;
+	p {
+		height: 120px;
+		overflow-x: auto;
+		
+	}
+	h3,p{
+		word-break: break-all;
+	}
+	.buttonGroup{
+		display: flex;
+		justify-content: space-around;
+		background: transparent;
+		box-shadow: none;
+	}
+}
